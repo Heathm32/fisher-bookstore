@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;  
 using System.Threading.Tasks;
 using Fisher.Bookstore.Models;
+using Fisher.Bookstore.Api;
 using Microsoft.AspNetCore.Mvc;
+using Fisher.Bookstore.api.Data;
 
 namespace Fisher.Bookstore.Api.Controllers
 {       

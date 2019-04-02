@@ -1,4 +1,5 @@
 using System;
+using Fisher.Bookstore.Api;
 
 namespace Fisher.Bookstore.Models{
 
@@ -10,5 +11,16 @@ namespace Fisher.Bookstore.Models{
         public string Author { get; set; }
 
         public string ISBN { get; set; }
+
+        public DateTime PublishDate { get; set; }
+
+        public string Publisher { get; set; }
+
+        public void ChangePublicationDate(DateTime dateTime)
+        {
+            this.PublishDate = dateTime;
+        }
     }
+
+
 }
